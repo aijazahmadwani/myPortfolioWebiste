@@ -10,6 +10,11 @@
   color:#505962 !important;
   
  }
+ .service-heading{
+   margin-top:5px;
+   font-weight: 600 !important;
+   font-size:18px !important;
+ }
  .heading-color{
   color:#505962 !important;
  }
@@ -44,6 +49,33 @@
 #contact-section{
   padding-top:0px !important;
 }
+
+/* social media icons */
+.social a{
+  font-size: 2rem;
+  padding:.5rem;
+}
+.fa-facebook{
+  color:#3b5598;
+}
+.fa-twitter{
+  color: #00aced;
+}
+.fa-instagram{
+  color: #dd2a7b ;
+}
+
+
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-github:hover{
+    color:#d5d5d5;
+}
+
+
+
 
 :root {
   --blue: #007bff;
