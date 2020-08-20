@@ -1,0 +1,23 @@
+{
+    "start_url": "/",
+    "short_name": "Aijaz Ahmad Wani",
+    "description": "Portfolio Website of Aijaz Ahmad Wani, developer from Srinagar, Jammu & Kashmir.",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#4A90E2",
+    "background_color": "#F7F8F9",
+    "name": "Aijaz Ahmad Wani",
+    "icons": [
+        {
+            "src": "assets/favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/favicons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ]
+}
