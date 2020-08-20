@@ -14,3 +14,14 @@ workbox.routing.registerRoute(
       ]
     })
   )
+
+  workbox.routing.setDefaultHandler(new workbox.strategies.StaleWhileRevalidate({
+  cacheName: 'homepage',
+  plugins: [
+    new workbox.expiration.ExpirationPlugin({
+      purgeOnQuotaError: true,
+      maxEntries: 100
+    })
+  ]
+}))
+
