@@ -8720,7 +8720,7 @@ h1, h2, h3, h4, h5,
     list-style: none;
     margin-bottom: 10px; }
     .ftco-about ul.about-info li span {
-      width: calc(100% - 130px); }
+      width: calc(100% - 100px); }
       .ftco-about ul.about-info li span:first-child {
         font-weight: 600;
         color: #000000;
